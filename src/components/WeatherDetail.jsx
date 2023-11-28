@@ -33,7 +33,7 @@ const WeatherDetail = ({ weather }) => {
         <h2 className="climaxState">{weather?.weather[0].description}</h2>
       </section>
       <div>
-        <img className="card_oscura" src="\public\img\card-oscuro.png" alt="" />
+        <img className="card_oscura" src="\img\card-oscuro.png" alt="" />
       </div>
 
       <button className="bt_f" onClick={handleChangeTemperatures}>
@@ -44,25 +44,25 @@ const WeatherDetail = ({ weather }) => {
 };
 
 const iconImg = {
-    "01d":<img className="img___cambiante" src="\public\img\icons\soleado.png" alt=""/>,
-    "02d":<img className="img___cambiante" src="\public\img\icons\algunanubes.png" alt=""/>,
-    "03d":<img className="img___cambiante" src="\public\img\icons\vercloudy.png" alt=""/>,
-    "04d":<img className="img___cambiante" src="\public\img\icons\brokencloud.png" alt=""/>,
-    "09d":<img className="img___cambiante" src="\public\img\icons\showersun.png" alt=""/>,
-    "10d":<img className="img___cambiante" src="\public\img\icons\lloviendo.png" alt=""/>,
-    "11d":<img className="img___cambiante" src="\public\img\icons\tormenta.png" alt=""/>,
-    "13d":<img className="img___cambiante" src="\public\img\icons\snow.png" alt=""/>,
-    "50d":<img className="img___cambiante" src="\public\img\icons\within.png" alt=""/>,
+    "01d":<img className="img___cambiante" src="\img\icons\soleado.png" alt=""/>,
+    "02d":<img className="img___cambiante" src="\img\icons\algunanubes.png" alt=""/>,
+    "03d":<img className="img___cambiante" src="\img\icons\vercloudy.png" alt=""/>,
+    "04d":<img className="img___cambiante" src="\img\icons\brokencloud.png" alt=""/>,
+    "09d":<img className="img___cambiante" src="\img\icons\showersun.png" alt=""/>,
+    "10d":<img className="img___cambiante" src="\img\icons\lloviendo.png" alt=""/>,
+    "11d":<img className="img___cambiante" src="\img\icons\tormenta.png" alt=""/>,
+    "13d":<img className="img___cambiante" src="\img\icons\snow.png" alt=""/>,
+    "50d":<img className="img___cambiante" src="\img\icons\within.png" alt=""/>,
     
-    "01n":<img className="img___cambiante" src="\public\img\icons\luna.png" alt=""/>,
-    "02n":<img className="img___cambiante" src="\public\img\icons\algunanubem.png" alt=""/>,
-    "03n":<img className="img___cambiante" src="\public\img\icons\vercloudy" alt=""/>,
-    "04n":<img className="img___cambiante" src="\public\img\icons\brokencloud.png" alt=""/>,
-    "09n":<img className="img___cambiante" src="\public\img\icons\showermoon.png" alt=""/>,
-    "10n":<img className="img___cambiante" src="\public\img\icons\lloviendo.png" alt=""/>,
-    "11n":<img className="img___cambiante" src="\public\img\icons\tormenta.png" alt=""/>,
-    "13n":<img className="img___cambiante" src="\public\img\icons\snow.png" alt=""/>,
-    "50n":<img className="img___cambiante" src="\public\img\icons\within.png" alt=""/>,
+    "01n":<img className="img___cambiante" src="\img\icons\luna.png" alt=""/>,
+    "02n":<img className="img___cambiante" src="\img\icons\algunanubem.png" alt=""/>,
+    "03n":<img className="img___cambiante" src="\img\icons\vercloudy" alt=""/>,
+    "04n":<img className="img___cambiante" src="\img\icons\brokencloud.png" alt=""/>,
+    "09n":<img className="img___cambiante" src="\img\icons\showermoon.png" alt=""/>,
+    "10n":<img className="img___cambiante" src="\img\icons\lloviendo.png" alt=""/>,
+    "11n":<img className="img___cambiante" src="\img\icons\tormenta.png" alt=""/>,
+    "13n":<img className="img___cambiante" src="\img\icons\snow.png" alt=""/>,
+    "50n":<img className="img___cambiante" src="\img\icons\within.png" alt=""/>,
     
     
 };

@@ -1,0 +1,211 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+.maini{
+ 
+    height: 280.353px;
+    width: 409px;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+    grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+    grid-template-areas: 
+    ". . . . . . . . . sol sol sol sol sol sol sol sol sol sol ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". g . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". p . . . . . . . . . . . . . . . . . ."
+    ". v . . . . . . . . . . . . . . . . . ."
+    ". c . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". ci . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . max . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ;
+    margin-bottom: 42px;
+}
+.img___cambiante{
+    width: 196.611px;
+    height: 195.398px;
+grid-area: sol;
+z-index: 2;
+}
+.card_oscura{
+    height: 280px;
+   width: 409px;
+   z-index: 1;
+   position: absolute;
+   transform: translateY(-110%);
+}
+.Presion{
+    color: #9D7BFF; 
+    grid-area: p;
+    color: #9D7BFF;
+    width: 150px;
+font-family: Lato;
+font-size: 12.151px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+z-index: 2;
+}
+.Grados{
+ color: white;
+ font-family: Lato;
+font-size: 75.95px;
+font-style: normal;
+font-weight: 300;
+grid-area: g;
+z-index: 2;
+width: 400px;
+
+
+
+}
+.Viento{  
+grid-area: v;
+color: #9D7BFF;
+font-family: Lato;
+font-size: 12.151px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+z-index: 2;
+width: 150px;
+
+}
+.Clouds{
+color: #9D7BFF;
+grid-area: c; 
+color: #9D7BFF;
+width: 150px;
+font-family: Lato;
+font-size: 12.151px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+z-index: 2;
+}
+.city{
+    color: white;
+    grid-area: ci;
+    font-size: 23.059px;
+    width: 150px;
+    z-index: 2; 
+}
+.climaxState{
+    color: white;
+    grid-area: max;
+    font-size: 12.151px;
+    width: 100px;
+    z-index: 2; 
+}
+
+
+
+
+.bt_f{
+width: 178.407px;
+height: 38.837px;
+flex-shrink: 0;
+border-radius: 10.923px;
+background: #7D69F1;
+margin-top: 65px;
+box-shadow: 0px 4.8546px 4.8546px 0px rgba(0, 0, 0, 0.25);
+transform: translateX(60%);
+color: white;
+
+color: #FFF;
+
+font-family: Lato;
+font-size: 18.205px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+
+}
+.bt_f:hover{
+    background-color: #5836B3;
+    color: black;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+.img___cambiante{
+    width: 162px;
+height: 161px;
+}
+    .card_oscura{
+        height: 231px;
+       width: 337px;
+       z-index: 1;
+       position: absolute;
+       margin-left: 0px;
+       transform: translateY(-140%);
+    }
+
+    .maini{
+        height: 231px;
+        width: 337px;
+   
+        grid-template-areas: 
+    ". . . . . . . . . sol sol sol sol sol sol sol sol sol sol ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". g . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". p . . . . . . . . . . . . . . . . . ."
+    ". v . . . . . . . . . . . . . . . . . ."
+    ". c . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". ci . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . max . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ". . . . . . . . . . . . . . . . . . . ."
+    ;
+    margin-bottom: 100px;
+}
+
+
+.climaxState{
+    font-size: 10.012px;
+}
+.city{
+    font-size: 19px;
+}
+.Clouds{
+    font-size: 10.012px;
+}
+.Presion{
+    font-size: 10.012px;
+}
+.Grados{
+    font-size: 59.151px;
+}
+.Viento{
+    font-size: 10.012px;
+}
+
+.bt_f{
+    width: 147px;
+height: 32px;
+
+}
+}

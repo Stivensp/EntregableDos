@@ -1,0 +1,24 @@
+.main{
+display: flex;
+flex-direction: column; /* Organizar los elementos en columna */
+align-items: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/public/img/bg-oscuro.png);
+  background-size: cover;
+  background-position: center top;
+  height: 100vh;
+  width: 100vw;
+}
+.header{
+    grid-area: h;
+}
+.weather{
+    grid-area: w;
+}
+body, html {
+
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
